@@ -102,5 +102,6 @@ font_family  DejaVu Sans Mono
 font_style       Light
 ```
 
-<img width="1107" height="616" alt="poweshell_on_tmux" src="https://github.com/user-attachments/assets/5b2d4c51-11da-49c6-a8cb-b3d676c6d93c" />
+
+<img width="1095" height="621" alt="2025-10-11 02_15_03-" src="https://github.com/user-attachments/assets/bd183c94-6c42-4a05-be77-93acb22312e5" />
 
