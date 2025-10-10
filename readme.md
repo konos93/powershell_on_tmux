@@ -1,4 +1,9 @@
-## have wsl registered with ubuntu or debian create a new user with a specific tmux conf file
+## those are some notes to run powershell_on_tmux
+
+
+
+
+have wsl registered with ubuntu or debian create a new user with a specific tmux conf file
 ```
 PS C:\Users\konos> wsl.exe -u kmk2
 Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.6.87.2-microsoft-standard-WSL2 x86_64)
