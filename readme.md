@@ -101,3 +101,6 @@ tab_bar_style powerline
 font_family  DejaVu Sans Mono
 font_style       Light
 ```
+
+<img width="1107" height="616" alt="poweshell_on_tmux" src="https://github.com/user-attachments/assets/5b2d4c51-11da-49c6-a8cb-b3d676c6d93c" />
+
