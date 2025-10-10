@@ -1,5 +1,5 @@
-have wsl registered with ubuntu or debian create a new user with a specific tmux conf file
-
+## have wsl registered with ubuntu or debian create a new user with a specific tmux conf file
+```
 PS C:\Users\konos> wsl.exe -u kmk2
 Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.6.87.2-microsoft-standard-WSL2 x86_64)
 
@@ -32,9 +32,8 @@ setw -g mode-keys vi
 unbind C-b
 set -g prefix C-Space
 bind C-Space send-prefix
+````
 
-kmk2@DESKTOP-CAAO5UV:/mnt/c/Users/konos$ exit
-logout
 PS C:\Users\konos> wsl.exe -u kmk2 tmux new -A -s main
 
 
@@ -45,16 +44,15 @@ and you have tmux with powershell
 _____________
 
 other way to open it 
-
+```
 PS C:\Users\konos\tmux> cat .\Start_tmux_windows.ps1
 # Start-Tmux.ps1
 # Attach to or create the "main" tmux session inside WSL as user kmk2
 
 wsl.exe -u kmk2 tmux new -A -s main
-
+```
 
 ###########
-have a screenshot 
 
 To create a **shortcut** that runs your PowerShell script with the specified parameters, follow these steps:
 
@@ -77,7 +75,7 @@ To create a **shortcut** that runs your PowerShell script with the specified par
 5. Click **Finish**.
 
 ---
-other notes 
+# other notes 
 
 ## to create a user on wsl 
 
@@ -94,7 +92,7 @@ usermod -aG sudo kmk2
 exit
 
 ## kitty conf for a linux distro not wsl 
-
+```
 cat ~/.config/kitty/kitty.conf
 scrollback_lines 20000
 tab_bar_edge top
@@ -102,3 +100,4 @@ font_size 14.0
 tab_bar_style powerline
 font_family  DejaVu Sans Mono
 font_style       Light
+```
