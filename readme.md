@@ -105,6 +105,10 @@ font_size 14.0
 tab_bar_style powerline
 font_family  DejaVu Sans Mono
 font_style       Light
+
+kmk@easy:~$ head ~/.bashrc
+export EDITOR="nano"
+export TERM=xterm-256color
 ```
 
 
