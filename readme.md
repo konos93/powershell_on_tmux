@@ -22,6 +22,7 @@ bind c new-window -n "PowerShell"
 
 #to run tmux with a specific tmux conf file
 #$ tmux -f ~/.tmux.conf
+# dont use tmux.v3.5 use 3.4
 
 ########add this
 # Enable mouse support this line is gold to navigate in tmux
@@ -40,7 +41,7 @@ bind C-Space send-prefix
 
 #increase the buffer zone
 set -g history-limit 50000
-kmk@emi-a-bh-01-dof:~$
+
 
 ````
 
