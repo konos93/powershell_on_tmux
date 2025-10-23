@@ -37,6 +37,11 @@ setw -g mode-keys vi
 unbind C-b
 set -g prefix C-Space
 bind C-Space send-prefix
+
+#increase the buffer zone
+set -g history-limit 50000
+kmk@emi-a-bh-01-dof:~$
+
 ````
 
 PS C:\Users\konos> wsl.exe -u kmk2 tmux new -A -s main
