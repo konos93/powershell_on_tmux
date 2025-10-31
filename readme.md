@@ -105,7 +105,7 @@ exit
 ## kitty conf for a linux distro not wsl 
 ```
 cat ~/.config/kitty/kitty.conf
-scrollback_lines 20000
+scrollback_lines 50000
 tab_bar_edge top
 font_size 14.0
 tab_bar_style powerline
